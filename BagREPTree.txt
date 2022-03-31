@@ -1,0 +1,1073 @@
+
+weka.classifiers.meta.multisearch.DefaultSearch
+===============================================
+Options: -sample-size 100.0 -initial-folds 10 -subsequent-folds 10 -initial-test-set . -subsequent-test-set . -lenient -num-slots 1
+
+
+---> check
+
+---> preSearch
+Shutting down thread pool...
+Starting thread pool with 1 slots...
+
+---> doSearch
+Step 1:
+
+
+=== Initial space - Start ===
+Determining best values with 10-fold CV in space:
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 0.0, max: 4.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 0.0, max: 3.0, list: 10,50,100,500
+
+Performance (5, 10): 71.94719471947195 (ACC): cached=false
+Performance (20, 10): 77.88778877887789 (ACC): cached=false
+Performance (50, 10): 83.16831683168317 (ACC): cached=false
+Performance (80, 10): 80.1980198019802 (ACC): cached=false
+Performance (100, 10): 81.18811881188118 (ACC): cached=false
+Performance (5, 50): 78.87788778877888 (ACC): cached=false
+Performance (20, 50): 81.84818481848185 (ACC): cached=false
+Performance (50, 50): 82.83828382838284 (ACC): cached=false
+Performance (80, 50): 82.50825082508251 (ACC): cached=false
+Performance (100, 50): 82.50825082508251 (ACC): cached=false
+Performance (5, 100): 78.87788778877888 (ACC): cached=false
+Performance (20, 100): 82.50825082508251 (ACC): cached=false
+Performance (50, 100): 83.16831683168317 (ACC): cached=false
+Performance (80, 100): 82.83828382838284 (ACC): cached=false
+Performance (100, 100): 81.84818481848185 (ACC): cached=false
+Performance (5, 500): 78.87788778877888 (ACC): cached=false
+Performance (20, 500): 82.17821782178218 (ACC): cached=false
+Performance (50, 500): 81.84818481848185 (ACC): cached=false
+Performance (80, 500): 82.17821782178218 (ACC): cached=false
+Performance (100, 500): 81.51815181518151 (ACC): cached=false
+
+Correlation coefficient:
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 0.0, max: 4.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 0.0, max: 3.0, list: 10,50,100,500
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+
+
+
+Matthews correlation coefficient:
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 0.0, max: 4.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 0.0, max: 3.0, list: 10,50,100,500
+0.6622411532694825
+0.6622411532694825
+0.6551040672883994
+0.6544959824157348
+0.6480185643353474
+0.6486711884733337
+0.6474919016339941
+0.6415538910041216
+0.6430751005987716
+0.6351012236771848
+0.6336273415349649
+0.6339969197798806
+0.6286598226187197
+0.6198487378265086
+0.5998725940096669
+0.5749069801532679
+0.5811155966511261
+0.5785376636456376
+0.5533009449462446
+0.4315517517349519
+
+
+
+Root mean squared error:
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 0.0, max: 4.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 0.0, max: 3.0, list: 10,50,100,500
+0.3617646129730548
+0.36362692583129747
+0.3607020024752384
+0.3625307482465746
+0.36118078427709277
+0.3818857560390234
+0.3561955859943007
+0.3586418885676065
+0.38064281337359995
+0.36317787835156023
+0.3854556103372499
+0.35559688216954755
+0.3585727360894223
+0.3625180082098615
+0.3634097270244428
+0.43537539777440215
+0.4369716492982393
+0.4342666472738921
+0.3974862238786082
+0.44641676103996425
+
+
+
+Root relative squared error:
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 0.0, max: 4.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 0.0, max: 3.0, list: 10,50,100,500
+72.63636394116402
+73.01028562861691
+72.42300928988188
+72.79019126025477
+72.51914077416966
+76.67635740166533
+71.51819523167481
+72.0093724161002
+76.42679502722042
+72.92012430549302
+77.39312523003835
+71.3979853843093
+71.99548773973139
+72.78763327113664
+72.96667569271791
+87.41619470151431
+87.7366956639335
+87.19357589915789
+79.80867388319169
+89.63311822527452
+
+
+
+Mean absolute error:
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 0.0, max: 4.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 0.0, max: 3.0, list: 10,50,100,500
+0.30727606469590174
+0.3049591516970914
+0.2905494894419886
+0.3064960725206758
+0.28939612986591773
+0.3494550330706043
+0.27955651123433506
+0.2894534735450516
+0.35017859775136206
+0.31049243590318737
+0.35156361786744805
+0.27818669915816924
+0.28175013568098917
+0.277989303998739
+0.28635172048148605
+0.4274015370401511
+0.42506852718238813
+0.4242043182340211
+0.35436541606664224
+0.42489183258985264
+
+
+
+Root absolute error:
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 0.0, max: 4.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 0.0, max: 3.0, list: 10,50,100,500
+61.93897122418313
+61.47194100591907
+58.567322786949426
+61.781744812994155
+58.334835086795856
+70.44116911262569
+56.35142041412459
+58.3463941013103
+70.58702118862335
+62.58730914094054
+70.86620571020352
+56.07530144321763
+56.7935988233425
+56.0355116434106
+57.721160261704725
+86.15318453163799
+85.68290959958715
+85.50870724758306
+71.43097634473895
+85.64729250297614
+
+
+
+Combined = (1-abs(CC)) + RRSE + RAE:
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 0.0, max: 4.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 0.0, max: 3.0, list: 10,50,100,500
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+
+
+
+Accuracy:
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 0.0, max: 4.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 0.0, max: 3.0, list: 10,50,100,500
+83.16831683168317
+83.16831683168317
+82.83828382838284
+82.83828382838284
+82.50825082508251
+82.50825082508251
+82.50825082508251
+82.17821782178218
+82.17821782178218
+81.84818481848185
+81.84818481848185
+81.84818481848185
+81.51815181518151
+81.18811881188118
+80.1980198019802
+78.87788778877888
+78.87788778877888
+78.87788778877888
+77.88778877887789
+71.94719471947195
+
+
+
+Kappa:
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 0.0, max: 4.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 0.0, max: 3.0, list: 10,50,100,500
+0.6568059164501299
+0.6568059164501299
+0.6502863230789719
+0.6507049747273213
+0.6437745391628402
+0.6433473249383703
+0.6442007311399136
+0.6368357970435476
+0.6359631557869442
+0.6298887334266107
+0.6312155613091682
+0.6307743436357595
+0.6229333333333332
+0.619170470331415
+0.5979299363057325
+0.5685489253771192
+0.5654161624310877
+0.5664654594232059
+0.5496772476209489
+0.4280098607502166
+
+
+
+Precision (per class):
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 0.0, max: 4.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 0.0, max: 3.0, list: 10,50,100,500
+0.865546218487395
+0.865546218487395
+0.8583333333333333
+0.8524590163934426
+0.8512396694214877
+0.8571428571428571
+0.8455284552845529
+0.85
+0.8620689655172413
+0.8487394957983193
+0.832
+0.8373983739837398
+0.847457627118644
+0.8091603053435115
+0.8095238095238095
+0.8189655172413793
+0.8557692307692307
+0.8425925925925926
+0.7933884297520661
+0.7226890756302521
+
+
+
+Weighted precision:
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 0.0, max: 4.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 0.0, max: 3.0, list: 10,50,100,500
+0.8351798963235747
+0.8351798963235747
+0.8313287886165666
+0.8305111192216947
+0.8275257595689639
+0.8283930877559806
+0.8267863371703025
+0.8245577016718064
+0.8265218002530476
+0.8216062791883865
+0.8194691289353655
+0.8200582253347286
+0.8186708272293102
+0.8117704545174914
+0.8024916293082093
+0.7923302472235053
+0.8002244658172815
+0.797057910919297
+0.7802332680820531
+0.7198041506744756
+
+
+
+Recall (per class):
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 0.0, max: 4.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 0.0, max: 3.0, list: 10,50,100,500
+0.7463768115942029
+0.7463768115942029
+0.7463768115942029
+0.7536231884057971
+0.7463768115942029
+0.7391304347826086
+0.7536231884057971
+0.7391304347826086
+0.7246376811594203
+0.7318840579710145
+0.7536231884057971
+0.7463768115942029
+0.7246376811594203
+0.7681159420289855
+0.7391304347826086
+0.6884057971014492
+0.644927536231884
+0.6594202898550725
+0.6956521739130435
+0.6231884057971014
+
+
+
+Weighted recall:
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 0.0, max: 4.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 0.0, max: 3.0, list: 10,50,100,500
+0.8316831683168316
+0.8316831683168316
+0.8283828382838284
+0.8283828382838284
+0.8250825082508251
+0.8250825082508251
+0.8250825082508251
+0.8217821782178217
+0.8217821782178217
+0.8184818481848185
+0.8184818481848185
+0.8184818481848185
+0.8151815181518152
+0.8118811881188119
+0.801980198019802
+0.7887788778877888
+0.7887788778877888
+0.7887788778877888
+0.7788778877887789
+0.7194719471947195
+
+
+
+Area under ROC (per class):
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 0.0, max: 4.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 0.0, max: 3.0, list: 10,50,100,500
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+
+
+
+Weighted area under ROC:
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 0.0, max: 4.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 0.0, max: 3.0, list: 10,50,100,500
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+
+
+
+Area under PRC (per class):
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 0.0, max: 4.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 0.0, max: 3.0, list: 10,50,100,500
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+
+
+
+Weighted area under PRC:
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 0.0, max: 4.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 0.0, max: 3.0, list: 10,50,100,500
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+
+
+
+F-Measure (per class):
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 0.0, max: 4.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 0.0, max: 3.0, list: 10,50,100,500
+0.8015564202334631
+0.8015564202334631
+0.7984496124031008
+0.8
+0.7953667953667954
+0.7937743190661479
+0.7969348659003832
+0.7906976744186046
+0.7874015748031497
+0.7859922178988327
+0.7908745247148289
+0.789272030651341
+0.7812499999999999
+0.7881040892193308
+0.7727272727272727
+0.7480314960629921
+0.7355371900826446
+0.7398373983739838
+0.7413127413127413
+0.669260700389105
+
+
+
+Weighted F-Measure:
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 0.0, max: 4.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 0.0, max: 3.0, list: 10,50,100,500
+0.8300430301690267
+0.8300430301690267
+0.8268345679796529
+0.8270703370915127
+0.8236266952276882
+0.8233780509599687
+0.8238586977138493
+0.8201743590557932
+0.8196333905044049
+0.8167130717509108
+0.8174355064789588
+0.8172118561181456
+0.8132425742574256
+0.8113873017915229
+0.800953779588485
+0.786232166523739
+0.783805753202693
+0.7847004212616383
+0.7770375203821718
+0.7167383836150442
+
+
+
+True positive rate (per class):
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 0.0, max: 4.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 0.0, max: 3.0, list: 10,50,100,500
+0.7463768115942029
+0.7463768115942029
+0.7463768115942029
+0.7536231884057971
+0.7463768115942029
+0.7391304347826086
+0.7536231884057971
+0.7391304347826086
+0.7246376811594203
+0.7318840579710145
+0.7536231884057971
+0.7463768115942029
+0.7246376811594203
+0.7681159420289855
+0.7391304347826086
+0.6884057971014492
+0.644927536231884
+0.6594202898550725
+0.6956521739130435
+0.6231884057971014
+
+
+
+True negative rate (per class):
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 0.0, max: 4.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 0.0, max: 3.0, list: 10,50,100,500
+0.9030303030303031
+0.9030303030303031
+0.896969696969697
+0.8909090909090909
+0.8909090909090909
+0.896969696969697
+0.8848484848484849
+0.8909090909090909
+0.9030303030303031
+0.8909090909090909
+0.8727272727272727
+0.8787878787878788
+0.8909090909090909
+0.8484848484848485
+0.8545454545454545
+0.8727272727272727
+0.9090909090909091
+0.896969696969697
+0.8484848484848485
+0.8
+
+
+
+False positive rate (per class):
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 0.0, max: 4.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 0.0, max: 3.0, list: 10,50,100,500
+0.09696969696969697
+0.09696969696969697
+0.10303030303030303
+0.10909090909090909
+0.10909090909090909
+0.10303030303030303
+0.11515151515151516
+0.10909090909090909
+0.09696969696969697
+0.10909090909090909
+0.12727272727272726
+0.12121212121212122
+0.10909090909090909
+0.15151515151515152
+0.14545454545454545
+0.12727272727272726
+0.09090909090909091
+0.10303030303030303
+0.15151515151515152
+0.2
+
+
+
+False negative rate (per class):
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 0.0, max: 4.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 0.0, max: 3.0, list: 10,50,100,500
+0.2536231884057971
+0.2536231884057971
+0.2536231884057971
+0.2463768115942029
+0.2536231884057971
+0.2608695652173913
+0.2463768115942029
+0.2608695652173913
+0.2753623188405797
+0.26811594202898553
+0.2463768115942029
+0.2536231884057971
+0.2753623188405797
+0.2318840579710145
+0.2608695652173913
+0.3115942028985507
+0.35507246376811596
+0.34057971014492755
+0.30434782608695654
+0.37681159420289856
+
+
+
+Best performance:
+Performance (50, 100): 83.16831683168317 (ACC)
+
+Result of Step 1: Performance (50, 100): 83.16831683168317 (ACC)
+
+=== Initial space - End ===
+
+Determining best values with 10-fold CV in space:
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 1.0, max: 3.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 1.0, max: 3.0, list: 10,50,100,500
+
+Performance (20, 50): 81.84818481848185 (ACC): cached=true
+Performance (50, 50): 82.83828382838284 (ACC): cached=true
+Performance (80, 50): 82.50825082508251 (ACC): cached=true
+Performance (20, 100): 82.50825082508251 (ACC): cached=true
+Performance (50, 100): 83.16831683168317 (ACC): cached=true
+Performance (80, 100): 82.83828382838284 (ACC): cached=true
+Performance (20, 500): 82.17821782178218 (ACC): cached=true
+Performance (50, 500): 81.84818481848185 (ACC): cached=true
+Performance (80, 500): 82.17821782178218 (ACC): cached=true
+All points were already cached!
+
+Correlation coefficient:
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 1.0, max: 3.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 1.0, max: 3.0, list: 10,50,100,500
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+
+
+
+Matthews correlation coefficient:
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 1.0, max: 3.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 1.0, max: 3.0, list: 10,50,100,500
+0.6622411532694825
+0.6551040672883994
+0.6544959824157348
+0.6480185643353474
+0.6486711884733337
+0.6415538910041216
+0.6430751005987716
+0.6351012236771848
+0.6336273415349649
+
+
+
+Root mean squared error:
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 1.0, max: 3.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 1.0, max: 3.0, list: 10,50,100,500
+0.3617646129730548
+0.3607020024752384
+0.3625307482465746
+0.36118078427709277
+0.3818857560390234
+0.3586418885676065
+0.38064281337359995
+0.36317787835156023
+0.3854556103372499
+
+
+
+Root relative squared error:
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 1.0, max: 3.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 1.0, max: 3.0, list: 10,50,100,500
+72.63636394116402
+72.42300928988188
+72.79019126025477
+72.51914077416966
+76.67635740166533
+72.0093724161002
+76.42679502722042
+72.92012430549302
+77.39312523003835
+
+
+
+Mean absolute error:
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 1.0, max: 3.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 1.0, max: 3.0, list: 10,50,100,500
+0.30727606469590174
+0.2905494894419886
+0.3064960725206758
+0.28939612986591773
+0.3494550330706043
+0.2894534735450516
+0.35017859775136206
+0.31049243590318737
+0.35156361786744805
+
+
+
+Root absolute error:
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 1.0, max: 3.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 1.0, max: 3.0, list: 10,50,100,500
+61.93897122418313
+58.567322786949426
+61.781744812994155
+58.334835086795856
+70.44116911262569
+58.3463941013103
+70.58702118862335
+62.58730914094054
+70.86620571020352
+
+
+
+Combined = (1-abs(CC)) + RRSE + RAE:
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 1.0, max: 3.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 1.0, max: 3.0, list: 10,50,100,500
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+
+
+
+Accuracy:
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 1.0, max: 3.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 1.0, max: 3.0, list: 10,50,100,500
+83.16831683168317
+82.83828382838284
+82.83828382838284
+82.50825082508251
+82.50825082508251
+82.17821782178218
+82.17821782178218
+81.84818481848185
+81.84818481848185
+
+
+
+Kappa:
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 1.0, max: 3.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 1.0, max: 3.0, list: 10,50,100,500
+0.6568059164501299
+0.6502863230789719
+0.6507049747273213
+0.6437745391628402
+0.6433473249383703
+0.6368357970435476
+0.6359631557869442
+0.6298887334266107
+0.6312155613091682
+
+
+
+Precision (per class):
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 1.0, max: 3.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 1.0, max: 3.0, list: 10,50,100,500
+0.865546218487395
+0.8583333333333333
+0.8524590163934426
+0.8512396694214877
+0.8571428571428571
+0.85
+0.8620689655172413
+0.8487394957983193
+0.832
+
+
+
+Weighted precision:
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 1.0, max: 3.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 1.0, max: 3.0, list: 10,50,100,500
+0.8351798963235747
+0.8313287886165666
+0.8305111192216947
+0.8275257595689639
+0.8283930877559806
+0.8245577016718064
+0.8265218002530476
+0.8216062791883865
+0.8194691289353655
+
+
+
+Recall (per class):
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 1.0, max: 3.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 1.0, max: 3.0, list: 10,50,100,500
+0.7463768115942029
+0.7463768115942029
+0.7536231884057971
+0.7463768115942029
+0.7391304347826086
+0.7391304347826086
+0.7246376811594203
+0.7318840579710145
+0.7536231884057971
+
+
+
+Weighted recall:
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 1.0, max: 3.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 1.0, max: 3.0, list: 10,50,100,500
+0.8316831683168316
+0.8283828382838284
+0.8283828382838284
+0.8250825082508251
+0.8250825082508251
+0.8217821782178217
+0.8217821782178217
+0.8184818481848185
+0.8184818481848185
+
+
+
+Area under ROC (per class):
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 1.0, max: 3.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 1.0, max: 3.0, list: 10,50,100,500
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+
+
+
+Weighted area under ROC:
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 1.0, max: 3.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 1.0, max: 3.0, list: 10,50,100,500
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+
+
+
+Area under PRC (per class):
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 1.0, max: 3.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 1.0, max: 3.0, list: 10,50,100,500
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+
+
+
+Weighted area under PRC:
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 1.0, max: 3.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 1.0, max: 3.0, list: 10,50,100,500
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+NaN
+
+
+
+F-Measure (per class):
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 1.0, max: 3.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 1.0, max: 3.0, list: 10,50,100,500
+0.8015564202334631
+0.7984496124031008
+0.8
+0.7953667953667954
+0.7937743190661479
+0.7906976744186046
+0.7874015748031497
+0.7859922178988327
+0.7908745247148289
+
+
+
+Weighted F-Measure:
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 1.0, max: 3.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 1.0, max: 3.0, list: 10,50,100,500
+0.8300430301690267
+0.8268345679796529
+0.8270703370915127
+0.8236266952276882
+0.8233780509599687
+0.8201743590557932
+0.8196333905044049
+0.8167130717509108
+0.8174355064789588
+
+
+
+True positive rate (per class):
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 1.0, max: 3.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 1.0, max: 3.0, list: 10,50,100,500
+0.7463768115942029
+0.7463768115942029
+0.7536231884057971
+0.7463768115942029
+0.7391304347826086
+0.7391304347826086
+0.7246376811594203
+0.7318840579710145
+0.7536231884057971
+
+
+
+True negative rate (per class):
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 1.0, max: 3.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 1.0, max: 3.0, list: 10,50,100,500
+0.9030303030303031
+0.896969696969697
+0.8909090909090909
+0.8909090909090909
+0.896969696969697
+0.8909090909090909
+0.9030303030303031
+0.8909090909090909
+0.8727272727272727
+
+
+
+False positive rate (per class):
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 1.0, max: 3.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 1.0, max: 3.0, list: 10,50,100,500
+0.09696969696969697
+0.10303030303030303
+0.10909090909090909
+0.10909090909090909
+0.10303030303030303
+0.10909090909090909
+0.09696969696969697
+0.10909090909090909
+0.12727272727272726
+
+
+
+False negative rate (per class):
+2-dimensional space:
+ - 1. dimension: bagSizePercent, min: 1.0, max: 3.0, list: 5,20,50,80,100
+ - 2. dimension: numIterations, min: 1.0, max: 3.0, list: 10,50,100,500
+0.2536231884057971
+0.2536231884057971
+0.2463768115942029
+0.2536231884057971
+0.2608695652173913
+0.2608695652173913
+0.2753623188405797
+0.26811594202898553
+0.2463768115942029
+
+
+
+Best performance:
+Performance (50, 100): 83.16831683168317 (ACC)
+
+Result of Step 2/Iteration 1:
+Performance (50, 100): 83.16831683168317 (ACC)
+
+No better point found.
+
+Final result: Performance (50, 100): 83.16831683168317 (ACC)
+Classifier: weka.classifiers.meta.Bagging -P 50 -S 1 -num-slots 1 -I 100 -W weka.classifiers.trees.REPTree -- -M 2 -V 0.001 -N 3 -S 1 -L -1 -I 0.0
+
+---> postSearch
+Shutting down thread pool...
+
+---> train best - start
+weka.classifiers.meta.multisearch.AbstractSearch$SearchResult
+
+---> train best - end
